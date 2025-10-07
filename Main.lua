@@ -419,3 +419,6 @@ local EspTab = CreateTab("Esp")
 
 -- Buttons
 
+CreateButton(EspTab, "Esp Key", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/DoorsKe/refs/heads/main/Assets/EspKey.lua"))()
+end)
