@@ -430,3 +430,7 @@ end)
 CreateButton(EspTab, "Esp Lever", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/DoorsKe/refs/heads/main/Assets/EspLever.lua"))()
 end)
+
+CreateButton(EspTab, "Esp Closet", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/DoorsKe/refs/heads/main/Assets/EspCloset.lua"))()
+end)
