@@ -426,3 +426,7 @@ end)
 CreateButton(EspTab, "Esp Key", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/DoorsKe/refs/heads/main/Assets/EspKey.lua"))()
 end)
+
+CreateButton(EspTab, "Esp Lever", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/DoorsKe/refs/heads/main/Assets/EspLever.lua"))()
+end)
