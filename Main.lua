@@ -6,7 +6,7 @@ local LocalPlayer = Players.LocalPlayer
 local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 
 -- Settings
-local KEY_SYSTEM_ENABLED = false
+local KEY_SYSTEM_ENABLED = true
 local COPY_LINK = "https://discord.gg/3mVUh2RWsp"
 
 -- Key validation
@@ -128,7 +128,7 @@ local Watermark = CreateUIElement("TextLabel", ScreenGui, {
     Position = UDim2.new(0, 10, 0, 10),
     BackgroundColor3 = Color3.fromRGB(40, 40, 45),
     BackgroundTransparency = 0.3,
-    Text = "ROBANIK | UNIVERSAL",
+    Text = "ROBANIK | DOORS👁️",
     TextColor3 = Color3.fromRGB(255, 255, 255),
     TextSize = 16,
     Font = Enum.Font.GothamBold
