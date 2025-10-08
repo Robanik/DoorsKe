@@ -416,6 +416,7 @@ end)
 -- Create Tabs
 local PlayerTab = CreateTab("Player")
 local EspTab = CreateTab("Esp")
+local InfoTab = CreateTab("Info")
 
 -- Buttons
 
@@ -433,4 +434,10 @@ end)
 
 CreateButton(EspTab, "Esp Closet", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/DoorsKe/refs/heads/main/Assets/EspCloset.lua"))()
+end)
+
+---
+
+CreateButton(InfoTab, "Info Mobs", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/DoorsKe/refs/heads/main/Assets/Info/InfoMob.lua"))()
 end)
