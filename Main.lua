@@ -418,7 +418,11 @@ local PlayerTab = CreateTab("Player")
 local EspTab = CreateTab("Esp")
 local InfoTab = CreateTab("Info")
 
--- Buttons
+CreateSlider(PlayerTab, "Walk Speed", 16, 50, function(value)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+end)
+
+---
 
 CreateButton(EspTab, "Esp Doors", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Robanik/DoorsKe/refs/heads/main/Assets/EspDoors.lua"))()
